@@ -1,6 +1,6 @@
 # This file is a part of Julia. License is MIT: https://julialang.org/license
 
-# Inner produce of x and y
+# Inner product of x and y
 function inner( x, y )
     s = zero(eltype(x))
     @simd for i=1:length(x)
